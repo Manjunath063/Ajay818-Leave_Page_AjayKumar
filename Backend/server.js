@@ -26,9 +26,9 @@ const pool = new Pool(poolConfig);
 const allowedOrigins = [
   'http://localhost:5500',
   'http://127.0.0.1:5500',
-  'http://16.171.154.98:3082',
-  'http://16.171.154.98:8164',
-  'http://16.171.154.98:8165'
+  'http://13.60.172.74:3082',
+  'http://13.60.172.74:8164',
+  'http://13.60.172.74:8165'
 ];
 
 app.use(cors({
